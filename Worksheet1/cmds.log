@@ -1,0 +1,121 @@
+    1  passwd
+    2  wget www.github.com
+    3  ls
+    4  rm a.txt
+    5  ls
+    6  rm index.html
+    7  rm index.html.1 
+    8  ls
+    9  git@github.com:haroldchu1324/cs131.git
+   10  ls
+   11  rm -r cs131/
+   12  cd cs131
+   13  ls
+   14  git rm -r 
+   15  ls
+   16  cd ..
+   17  ls
+   18  git rm -r cs131/
+   19  git rm -r cs131
+   20  ls
+   21  rm cs131
+   22  rmdir cs131
+   23  rmdir -r cs131
+   24  rmdir --help
+   25  rm -rf cs131
+   26  ls
+   27  failed to remove 'cs131': Directory not empty
+   28  ls
+   29  cd wor
+   30  cd Worksheet1/
+   31  ls
+   32  rm cmds.log
+   33  history > cmds.log
+   34  ls
+   35  man cmds.log
+   36  git add. cmds.log
+   37  git add . cmds.log
+   38  ls
+   39  git commit -m cmds.log
+   40  git status
+   41  git push origin main
+   42  git status
+   43  cat smds.log
+   44  cat cmds.log 
+   45  git init
+   46  cd ..
+   47  ls
+   48  git status
+   49  git commit -m "first commit"
+   50  ls
+   51  git branch -M main
+   52  git remote add origin git@github.com:haroldchu1324/cs131.git
+   53  ls
+   54  git push -u origin main
+   55  git status
+   56  git push -u origin master
+   57  cd ..
+   58  ls
+   59  cd haroldf23/
+   60  ls
+   61  git pull origin main
+   62  git status
+   63  git pull --rebase
+   64  git remote add origin https://github.com/haroldchu1324/cs131
+   65  git remote -v
+   66  git push origin main
+   67  git del .bash_history
+   68  git rm .bash_history 
+   69  cd .bash_history
+   70  cat .bash_history 
+   71  git staus
+   72  git status
+   73  rm .bash_history 
+   74  git status
+   75  rm .ssh/
+   76  cd .ssh/
+   77  ls
+   78  rm .wget-hsts
+   79  cd .wget-hsts
+   80  git status
+   81  cd ..
+   82  git status
+   83  cd ..
+   84  git status
+   85  ls
+   86  cd haroldf23/
+   87  ls
+   88  git add .ssh/
+   89  git add .wget-hsts 
+   90  git push origin main
+   91  git status
+   92  git origin
+   93  git pull origin main
+   94  git push -u origin main
+   95  git pull --rebase origin main
+   96  git push -u origin main
+   97  ls
+   98  wget www.github.com
+   99  cd ~/Desktop
+  100  ls
+  101  git init
+  102  ls
+  103  ls Worksheet1/
+  104  git status
+  105  git restore .wget-hsts
+  106  git restore .ssh/known_hosts
+  107  git status
+  108  git rm --cached .ssh/known_hosts 
+  109  git status
+  110  git rm --cached ..wget-hsts
+  111  git rm --cached .wget-hsts 
+  112  git restore .bash_history
+  113  git status
+  114  git restore .bash_history
+  115  git restore .ssh/
+  116  ls
+  117  cd Worksheet1/
+  118  ls
+  119  rm cmds.log 
+  120  ls
+  121  history > cmds.log
