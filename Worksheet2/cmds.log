@@ -1,0 +1,385 @@
+    1  passwd
+    2  wget www.github.com
+    3  ls
+    4  rm a.txt
+    5  ls
+    6  rm index.html
+    7  rm index.html.1 
+    8  ls
+    9  git@github.com:haroldchu1324/cs131.git
+   10  ls
+   11  rm -r cs131/
+   12  cd cs131
+   13  ls
+   14  git rm -r 
+   15  ls
+   16  cd ..
+   17  ls
+   18  git rm -r cs131/
+   19  git rm -r cs131
+   20  ls
+   21  rm cs131
+   22  rmdir cs131
+   23  rmdir -r cs131
+   24  rmdir --help
+   25  rm -rf cs131
+   26  ls
+   27  failed to remove 'cs131': Directory not empty
+   28  ls
+   29  cd wor
+   30  cd Worksheet1/
+   31  ls
+   32  rm cmds.log
+   33  history > cmds.log
+   34  ls
+   35  man cmds.log
+   36  git add. cmds.log
+   37  git add . cmds.log
+   38  ls
+   39  git commit -m cmds.log
+   40  git status
+   41  git push origin main
+   42  git status
+   43  cat smds.log
+   44  cat cmds.log 
+   45  git init
+   46  cd ..
+   47  ls
+   48  git status
+   49  git commit -m "first commit"
+   50  ls
+   51  git branch -M main
+   52  git remote add origin git@github.com:haroldchu1324/cs131.git
+   53  ls
+   54  git push -u origin main
+   55  git status
+   56  git push -u origin master
+   57  cd ..
+   58  ls
+   59  cd haroldf23/
+   60  ls
+   61  git pull origin main
+   62  git status
+   63  git pull --rebase
+   64  git remote add origin https://github.com/haroldchu1324/cs131
+   65  git remote -v
+   66  git push origin main
+   67  git del .bash_history
+   68  git rm .bash_history 
+   69  cd .bash_history
+   70  cat .bash_history 
+   71  git staus
+   72  git status
+   73  rm .bash_history 
+   74  git status
+   75  rm .ssh/
+   76  cd .ssh/
+   77  ls
+   78  rm .wget-hsts
+   79  cd .wget-hsts
+   80  git status
+   81  cd ..
+   82  git status
+   83  cd ..
+   84  git status
+   85  ls
+   86  cd haroldf23/
+   87  ls
+   88  git add .ssh/
+   89  git add .wget-hsts 
+   90  git push origin main
+   91  git status
+   92  git origin
+   93  git pull origin main
+   94  git push -u origin main
+   95  git pull --rebase origin main
+   96  git push -u origin main
+   97  ls
+   98  wget www.github.com
+   99  cd ~/Desktop
+  100  ls
+  101  git init
+  102  ls
+  103  ls Worksheet1/
+  104  git status
+  105  git restore .wget-hsts
+  106  git restore .ssh/known_hosts
+  107  git status
+  108  git rm --cached .ssh/known_hosts 
+  109  git status
+  110  git rm --cached ..wget-hsts
+  111  git rm --cached .wget-hsts 
+  112  git restore .bash_history
+  113  git status
+  114  git restore .bash_history
+  115  git restore .ssh/
+  116  ls
+  117  cd Worksheet1/
+  118  ls
+  119  rm cmds.log 
+  120  ls
+  121  history > cmds.log
+  122  ls
+  123  git commit -m "first commit"
+  124  git config --global user.name "haroldchu1324"
+  125  git commit -m "first commit"
+  126  git add cmds.log
+  127  git commit -m "first commit"
+  128  git remote add origin git@github.com:haroldchu1324/cs131.git
+  129  git branch -M main
+  130  git push -u origin main
+  131  git clone https://https://github.com/haroldchu1324/cs131
+  132  git clone https://github.com/haroldchu1324/cs131
+  133  git push -u origin master
+  134  git status
+  135  git add cs131/
+  136  cd ..
+  137  ls
+  138  cd Worksheet1/
+  139  ls
+  140  cd cs131/
+  141  ls
+  142  cd ..
+  143  git add cs131/
+  144  rm cs131/
+  145  rmdir cs131/
+  146  rmdir -r cs131/
+  147  rmdir --help
+  148  rm -r cs131/
+  149  ls
+  150  git push -u origin master
+  151  git remote add origin https://github.com/haroldchu1324/cs131
+  152  git commit -m "first commit"
+  153  ls
+  154  cd
+  155  ls
+  156  git status
+  157  git add Worksheet1/cmd
+  158  git add Worksheet1/cmds.log 
+  159  git commit -m "change"
+  160  git status
+  161  cd
+  162  ls
+  163  cd sampleProject/
+  164  git status
+  165  git push
+  166  git remote add origin git@github.com:haroldchu1324/cs131.git
+  167  git push
+  168  git push --set-upstream origin master
+  169  history > cmds.log
+  170  ls
+  171  git status
+  172  git add cmds.log 
+  173  git status
+  174  git push
+  175  git push --set-upstream origin master
+  176  cd ..
+  177  mkdir sampleDirectory
+  178  ls
+  179  cd sampleDirectory/
+  180  ls
+  181  git commit -m "update"
+  182  cd ..
+  183  ls
+  184  git sampleProject/
+  185  cd sampleProject/
+  186  ls
+  187  git status
+  188  git commit -m "update"
+  189  git push
+  190  ls
+  191  cat cmds.log
+  192  head cmds.log 
+  193  head -15 cmds.log 
+  194  tail -15 cmds.log 
+  195  cd ..
+  196  ls
+  197  cd Spotify
+  198  mkdir Spotify
+  199  cd Spotify/
+  200  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/spotify-2023.csv
+  201  ls
+  202  nano spotify-2023.csv 
+  203  vi spotify-2023.csv 
+  204  vim spotify-2023.csv 
+  205  vi spotify-2023.csv 
+  206  git clone https://github.com/haroldf23/cs131.git
+  207  git clone https://github.com/haroldchu1324/cs131.git
+  208  ls
+  209  cd cs131
+  210  ls
+  211  mkdir Worksheet1
+  212  ls
+  213  cd Worksheet1/
+  214  wget www.github.com
+  215  history > cmds.log
+  216  git status
+  217  cd ..
+  218  git status
+  219  git remote add origin git@github.com:haroldchu1324/cs131.git
+  220  git commit -m "this is a commit"
+  221  ls
+  222  cd Worksheet1/
+  223  ls
+  224  git add cmds.log 
+  225  git commit -m "this is my commit"
+  226  git remote add origin https://github.com/haroldchu1324/cs131
+  227  git push -u origin master
+  228  cd ..
+  229  git push -u origin master
+  230  pwd
+  231  cd
+  232  ls
+  233  mkdir sampleProject
+  234  cd sampleProject/
+  235  sampleProject % touch sample.txt
+  236  ls
+  237  git init
+  238  ls
+  239  cd ..
+  240  ls
+  241  cd sampleProject/
+  242  git add sample.txt
+  243  wget www.github.com
+  244  ls
+  245  history > cmds.log
+  246  ls
+  247  git add cmds.log
+  248  git status
+  249  cd ..
+  250  ls
+  251  cd sampleProject
+  252  ls
+  253  cd ~/.ssh && ssh-keygen
+  254  ls
+  255  git status
+  256  cd ~/.ssh && ssh-keygen
+  257  cat id_rsa.pub
+  258  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDiwwSl0YJD7WrPGElFOStuQmvsX+CdNcNLx0LSbhRb0v1HOt9zlq/V3I32zjxAkMVIs4jw+bwCZrTksAppZtEh1utMmrqy+noNPJlxvoCCIUyZcuxU4dwmlSt4CDF7BCU2L8mrs7GwHCSAXmEAOBUOXk8fwE9Tw+Jb3VkP7S+qTY0At4fiNJaNgF5lAs2Yy6Kqhs/ot+o8GgMMa3uF6ZdvSymXnYkvlpVMw6yJjTOThysdl6omsMtHAyCsj+ws7in6RT/ve6lK/+Mv/pNdTcJVX7NfCfs0JoxnfwMmBolb3fFTeGisnPBft+yY+kP6kLqq9gvQbLp5z3d4BXChSWzLLxuBUydPEge6uHfG6oqilUGLPeGB+LtXSdd7EFwUzODQtNI0E7Z6fz5HA9/V00BlwFfiUBudpaI4Be8w3rXsl9vWanIM23hvxn/dnSx3+AXyru4zjT5QAPk3ec6O+jgAAmj+m2O7G3O/Z9i6ISjZXUtmpBDWJYSnM+4Bnwu5tLk= haroldf23@sjsu.pic2.isv.ihost.com
+  259  cd ..
+  260  ls
+  261  cd sampleProject/
+  262  git status
+  263  git commit -m "ssh tutorial"
+  264  git config --global user.name "haroldchu1324"
+  265  git config --global user.email you@example.com
+  266   git config --global user.email "hyunwook.chu@sjsu.edu"
+  267  git status
+  268  git commit -m "ssh tutorial"
+  269  git add index.html
+  270  git commit -m "ssh tut"
+  271  git status
+  272  git push
+  273  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/spotify-2023.csv
+  274  vi
+  275  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/spotify-2023.csv
+  276  ls
+  277  vi spotify-2023.csv
+  278  wc -l spotify-2023.csv
+  279  grep -v "Eminem" spotify-2023.csv
+  280  ls
+  281  grep -v "Eminem" spotify-2023.csv > result_without_eminem.txt
+  282  ls
+  283  wc -l result_without_eminem.txt 
+  284  ls
+  285  cd cs131
+  286  ls
+  287  cs Worksheet2
+  288  ls
+  289  cd Worksheet2
+  290  ls
+  291  grep --^.*,.*,.*,.*,Music.*$ --count Global\ YouTube\ Statistics.csv 
+  292  grep --"^".*,.*,.*,.*,Music.*"$" --count Global\ YouTube\ Statistics.csv 
+  293  grep --.*,.*,.*,.*,Music.*"$" --count Global\ YouTube\ Statistics.csv 
+  294  grep .*,.*,.*,.*,Music.*"$" --count Global\ YouTube\ Statistics.csv 
+  295  grep "^".*,.*,.*,.*,Music.*"$" --count Global\ YouTube\ Statistics.csv 
+  296  wc -l .*,.*,.*,.*,Music.* Global\ YouTube\ Statistics.csv 
+  297  ls
+  298  cat cmds.log
+  299  git branch -M main
+  300  git remote add origin git@github.com:haroldchu1324/cs131.git
+  301  ls
+  302  git push -u origin main
+  303  cd ..
+  304  ls
+  305  cd haroldf23/
+  306  git pull --rebase
+  307  git remote add origin https://github.com/haroldchu1324/cs131
+  308  git remote -v
+  309  git push origin main
+  310  git remote -v
+  311  git del .bash_history
+  312  git rm .bash_history
+  313  cd .bash_history
+  314  git add .ssh/
+  315  cd ..
+  316  cd haroldf23/
+  317  ls
+  318  git pull origin main
+  319  git status
+  320  git pull origin main
+  321  git remote add origin git@github.com:haroldchu1324/cs131.git
+  322  ls
+  323  git push -u origin main
+  324  git status
+  325  git push -u origin master
+  326  git pull origin main
+  327  git status
+  328  git pull --rebase
+  329  git remote add origin https://github.com/haroldchu1324/cs131
+  330  git remote -v
+  331  git push origin main
+  332  git del .bash_history
+  333  git push --set-upstream origin master
+  334  ls
+  335  cd cs131/
+  336  cd Worksheet2
+  337  cd ..
+  338  git remote set-url origin git@github.com:haroldchu1324/cs131.git
+  339  git push --set-upstream origin master
+  340  git status
+  341  git ls
+  342  git Worksheet2
+  343  cd Worksheet2
+  344  ls
+  345  git status
+  346  git add cmds.log
+  347  git add counts.txt 
+  348  git status
+  349  git branch --unset-upstream
+  350  git remote add origin git@github.com:haroldchu1324/cs131.git
+  351  git push
+  352  git push --set-upstream origin master
+  353  git commit -m "worksheet 2"
+  354  git push -u origin master
+  355  git pull origin main
+  356  git push -u origin main
+  357  ls
+  358  git status
+  359  git pull --rebase origin main
+  360  git push -u origin main
+  361  ls
+  362  cd ..
+  363  ls
+  364  cd Worksheet2
+  365  ls
+  366  git status
+  367  grep "United States" Global\ YouTube\ Statistics.csv 
+  368  grep "Music" Global\ YouTube\ Statistics.csv 
+  369  wc Global\ YouTube\ Statistics.csv | -l "Music"
+  370  wc -l "Music" Global\ YouTube\ Statistics.csv 
+  371  wc -l  Global\ YouTube\ Statistics.csv | -l "Music"
+  372  echo "Music" | wc -l
+  373  echo "Music" | wc
+  374  cat Global\ YouTube\ Statistics.csv |grep "Music"|wc -l
+  375  cat Global\ YouTube\ Statistics.csv |grep "Music"|wc -w
+  376  echo "238" >counts.txt
+  377  echo "829" >>counts.txt
+  378  cat counts.txt 
+  379  vi counts.txt
+  380  cat counts.txt 
+  381  vi counts.txt 
+  382  cat counts.txt 
+  383  vi counts.txt 
+  384  cat counts.txt 
+  385  history > cmds.log
