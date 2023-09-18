@@ -284,6 +284,7 @@
   284  ls
   285  cd cs131
   286  ls
+<<<<<<< HEAD
   287  cs Worksheet2
   288  ls
   289  cd Worksheet2
@@ -383,3 +384,23 @@
   383  vi counts.txt 
   384  cat counts.txt 
   385  history > cmds.log
+=======
+  287  mkdir Worksheet2
+  288  ls
+  289  cd Worksheet2
+  290  ls
+  291  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  292  ls
+  293  grep "United States" Global\ YouTube\ Statistics.csv 
+  294  grep "Music" Global\ YouTube\ Statistics.csv 
+  295  grep "Music" Global\ YouTube\ Statistics.csv | wc -l
+  296  grep "Music" Global\ YouTube\ Statistics.csv | wc -w
+  297  echo "238" > counts.txt
+  298  cat counts.txt 
+  299  echo "830" >> counts.txt 
+  300  cat counts.txt 
+  301  vi counts.txt 
+  302  ls
+  303  cat counts.txt
+  304  history > cmds.log
+>>>>>>> 50181d0 (Worksheet 2)

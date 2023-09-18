@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 Counts of lines with Music: 238
 Counts of words with Music: 829
+=======
+Line counts of records in "Music" category: 238
+Word counts of records in "Music" category: 830
+>>>>>>> 50181d0 (Worksheet 2)
