@@ -1,0 +1,67 @@
+Tasks:
+1.A) find /etc -type f > one.txt 2> two.txt
+This command finds all files that contains "/etc" and outputs the result onto one.txt and outputs any errors it find when finding the file to two.txt.
+B) one.txt contains all the files with "/etc" in their name. 
+two.txt contains all the files that faces an error when interacted by the find command
+
+2.
+1) March, 2006 with 15 channels
+2) July, 2014 with 13 channels
+3) August, 2014 with 12 channels
+
+cut -d',' -f20,21 Global\ YouTube\ Statistics.csv>channelsCreated.txt
+was used to cut the column 20 and 21 with the delimiter ',' in the youtube csv file and output what is cut to channelsCreated.txt.
+
+sort -t',' -k2,2 -k1,1n channelsCreated.txt >sortedChannelsCreated.txt
+was used to sort the channelsCreated.txt file by the 2nd column first then the first column divided by ',' and output the result into sortedChannelsCreated.txt.
+
+uniq -c sortedChannelsCreated.txt|sort -nr>sortedCount.txt
+was used to find the count of every unique date of sortedChannelsCreated.txt and this is sorted with descending order and the result is outputed to sortedCount.txt.
+
+3. Write the command you would use to find all the processes owned by you. Paste the output of the same. 
+ps -u haroldf23
+Output:
+    PID TTY          TIME CMD
+ 729706 ?        00:00:00 systemd
+ 729708 ?        00:00:00 (sd-pam)
+ 729714 ?        00:00:00 sshd
+ 729717 pts/62   00:00:00 bash
+ 737018 pts/62   00:00:00 ps
+
+4.b. In the second terminal use the same command you used in Q3 and paste the output of it below. What did you notice? What is the Process ID for the vim?
+
+    PID TTY          TIME CMD
+ 729706 ?        00:00:00 systemd
+ 729708 ?        00:00:00 (sd-pam)
+ 729714 ?        00:00:00 sshd
+ 729717 pts/62   00:00:00 bash
+ 737553 ?        00:00:00 sshd
+ 737554 pts/77   00:00:00 bash
+ 737942 pts/62   00:00:00 vim
+ 738086 pts/77   00:00:00 ps
+ 
+I noticed that the processes are updated and can be accessed from different terminals. The proccess ID for vim is 737942
+
+
+d. In the second terminal use the same command you used in Q3 and paste the output of it below. what did you notice? What changed and why?
+
+    PID TTY          TIME CMD
+ 729706 ?        00:00:00 systemd
+ 729708 ?        00:00:00 (sd-pam)
+ 729714 ?        00:00:00 sshd
+ 729717 pts/62   00:00:00 bash
+ 737553 ?        00:00:00 sshd
+ 737554 pts/77   00:00:00 bash
+ 738818 pts/77   00:00:00 ps
+
+I noticed that the vim is gone from the list of processes even when checked from a 2nd terminal. the Process ID for vim is gone.
+
+5. What is the init process in Linux ? Find the process id for the init process. Show the command you used to do this.
+The init process in linux is the first process started during the system boot. It is a process that continues running until the system is shutdown. 
+
+The command used was: ps -u haroldf23
+The process ID for init process: 729706
+
+6. Explain the command in not more than 4 sentences:  ps aux
+ps aux is like the task manager tool except it is a Linux version. It shows all process running on my Linux system. This can be used for managing or monitoring a program's memory usage, processor time and I/O resources.
+ 
